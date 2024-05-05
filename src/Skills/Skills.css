@@ -5,11 +5,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: transform 0.2s linear;
   }
   
   .skills__list-item {
     margin: 0.5em;  
+    
   }
   .skills__list li {
     color: rgb(47, 68, 150);
+     transition: transform 0.2s linear;
   }

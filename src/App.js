@@ -5,10 +5,10 @@ import Projects from './Projects/project'
 import Skills from './Skills/Skills'
 import ScrollToTop from './ScrolltoTop/ScrollToTop'
 
-import Footer from './Footer/Footer'
+import Footer from './Footer/footer'
 import './App.css'
 import { ThemeContext } from './Themecontext/theme'
-
+//githubLink of portFolio https://github.com/Sachinshekharpatel/portfolioSachinMain //
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
 
@@ -21,10 +21,12 @@ const App = () => {
         <About />
         <Projects />
         <Skills />
+        <ScrollToTop/>
+        <Footer/>
       </main>
 
-      <ScrollToTop />
-      <Footer />
+      {/* <ScrollToTop/>
+      <Footer /> */}
     </div>
   )
 }

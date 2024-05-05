@@ -1,7 +1,7 @@
 import { number } from "prop-types";
 
 const header = {
-  homepage: "https://www.linkedin.com/in/sachin-shekhar-patel-04b47a239/",
+  homepage: "https://github.com/Sachinshekharpatel/portfolioSachinMain",
   title: "Sachin Shekhar Patel.",
 };
 
@@ -51,19 +51,16 @@ const skills = [
   "HTML",
   "CSS",
   "JavaScript",
-
   "React",
   "Redux",
-
   "Material UI",
   "Git",
-
   "Jest",
 ];
 
-const contact = {
+const contact = [{
   Whatsapp:'6263877374',
   email: "heroft7024@gmail.com",
-};
+}];
 
 export { header, about, projects, skills, contact };

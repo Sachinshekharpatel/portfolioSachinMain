@@ -47,9 +47,9 @@ const Navbar = () => {
         </li>
       ) : null}
 
-      {contact.email ? (
+      {contact.length ? (
         <li className="nav__list-item">
-          <a href="#contact" onClick={toggleNavList} className="link link--nav">
+          <a href="#skills" onClick={toggleNavList} className="link link--nav">
             Contact
           </a>
         </li>

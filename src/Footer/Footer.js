@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <a
-        href="https://github.com/Sachinshekharpatel/cleanPortfolio"
+        href="https://github.com/Sachinshekharpatel/portfolioSachinMain"
         className="link footer__link"
       >
         Created By Sachin Shekhar Patel
@@ -29,7 +29,7 @@ const Footer = () => {
           <ul class="footer__list">
             <li>
               <a href="#" class="footer__link">
-                Home
+                Top
               </a>
             </li>
             <li>
@@ -38,13 +38,13 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" class="footer__link">
+              <a href="#projects" class="footer__link">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#" class="footer__link">
-                Contact
+              <a href="#skills" class="footer__link">
+                Skills
               </a>
             </li>
           </ul>
@@ -83,7 +83,7 @@ const Footer = () => {
               <a
                 aria-label="Whatsapp"
                 className="link link--icon"
-                href="https://github.com/Sachinshekharpatel"
+                href="https://github.com/Sachinshekharpatel/portfolioSachinMain"
               >
                 <GitHubIcon />
               </a>
@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
       </div>
       <div class="footer__bottom">
-        <p>&copy; Sachin Shekhar Patel . All rights reserved.</p>
+        <p>&copy; Sachin Shekhar Patel . All rights reserved. 2024</p>
       </div>
     </footer>
   );
