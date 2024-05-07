@@ -29,12 +29,12 @@ const projects = [
     livePreview: "https://reactprojectdeployment.web.app/login",
   },
   {
-    name: "Project 2",
+    name: "SachinSteps",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["Bootstrap", "Javascript", "React"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+      "I developed a comprehensive expense tracker app integrated with Firebase authentication, ensuring secure access for users. Each user enjoys a personalized experience with individual carts, enhancing organization and privacy. The app simplifies expense management, offering a seamless and efficient solution for tracking financial activities.",
+    stack: ["Bootstrap", "Javascript", "React" ,'Redux','Node Js'],
+    sourceCode: "https://github.com/Sachinshekharpatel/trackerappreactbootstrap",
+    livePreview: "https://sachinsteps.netlify.app/",
   },
   {
     name: "Project 3",
