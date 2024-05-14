@@ -17,9 +17,9 @@ const About = () => {
             I am
           </span>{" "}
           <span className="animate-text" style={{ animationDelay: "0.6s" }}>
-            a
+            a ,
           </span>
-          ,{" "}
+          {" "}
           <span
             className="about__name animate-text"
             style={{ animationDelay: "0.8s" }}
