@@ -1,16 +1,13 @@
-import { number } from "prop-types";
-
 const header = {
   homepage: "https://github.com/Sachinshekharpatel/portfolioSachinMain",
   title: "Sachin Shekhar Patel.",
 };
 
 const about = {
-  
   name: "Sachin Shekhar Patel",
   role: "Front End Developer",
   description:
-    "Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.",
+    "Proficient in HTML, CSS, and JavaScript, with advanced knowledge in React and Redux, I specialize in building modern and responsive web applications. Experienced in utilizing Material UI for intuitive user interfaces and Git for version control, I ensure efficient collaboration and high-quality code. Skilled in Jest for testing, I prioritize delivering robust and reliable software solutions.",
   resume: "https://www.snapit.tech/heroft7024/sachin-shekhar-patel",
   social: {
     linkedin: "https://www.linkedin.com/in/sachin-shekhar-patel-04b47a239/",
@@ -19,35 +16,47 @@ const about = {
 };
 
 const projects = [
-  
   {
-    name: "SachZon Ecommerce",
+    name: "SachinTube",
     description:
-      "Created an intuitive ecommerce platform , product addition via custom forms, and seamless purchase functionality. Successfully implemented transaction handling and provided users with purchase summaries for enhanced shopping experience.",
-    stack: ["Bootstrap", "Javascript", "React"],
-    sourceCode: "https://github.com/Sachinshekharpatel/ecommerceReactBootstrap",
-    livePreview: "https://reactprojectdeployment.web.app/login",
+      "Developed a fully functional YouTube clone using React, Bootstrap, and Redux, with authentication features allowing users to create accounts and log in. Implemented state management with Redux for seamless navigation, video playback. Demonstrated proficiency in frontend development,integration of third-party APIs, contributing to a responsive and engaging user experience.",
+    stack: ["Bootstrap", "Javascript", "React", "Context API","Firebase Authentication"],
+    sourceCode: "https://github.com/Sachinshekharpatel/yoututbereact2024",
+    livePreview: "https://sachintube.vercel.app/loginpage",
   },
   {
     name: "SachinSteps",
     description:
       "I developed a comprehensive expense tracker app integrated with Firebase authentication, ensuring secure access for users. Each user enjoys a personalized experience with individual carts, enhancing organization and privacy. The app simplifies expense management, offering a seamless and efficient solution for tracking financial activities.",
-    stack: ["Bootstrap", "Javascript", "React" ,'Redux','Node Js'],
-    sourceCode: "https://github.com/Sachinshekharpatel/trackerappreactbootstrap",
+    stack: [
+      "Bootstrap",
+      "Javascript",
+      "React",
+      "Redux",
+      "Firebase Authentication",
+    ],
+    sourceCode:
+      "https://github.com/Sachinshekharpatel/trackerappreactbootstrap",
     livePreview: "https://sachinsteps.netlify.app/",
   },
   {
-    name: "Project 3",
+    name: "Mailbox",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["Bootstrap", "Javascript", "React"],
+      "Mailbox is a responsive web application developed using React and Bootstrap, offering users the ability to create accounts, log in, and send emails. It features separate pages for inbox and sent mail, with unread emails marked by a star for easy identification. Users can delete emails, with the unread count dynamically adjusting accordingly.",
+    stack: [
+      "Bootstrap",
+      "Javascript",
+      "React",
+      "Redux",
+      "Custom Hooks",
+      "Authentication",
+    ],
     sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    livePreview: "https://mailbox-khaki.vercel.app/",
   },
 ];
 
 const skills = [
- 
   "HTML",
   "CSS",
   "JavaScript",
@@ -58,9 +67,11 @@ const skills = [
   "Jest",
 ];
 
-const contact = [{
-  Whatsapp:'6263877374',
-  email: "heroft7024@gmail.com",
-}];
+const contact = [
+  {
+    Whatsapp: "6263877374",
+    email: "heroft7024@gmail.com",
+  },
+];
 
 export { header, about, projects, skills, contact };

@@ -1,81 +1,95 @@
 .about {
-    flex-direction: column;
-    margin-top: 3em;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.animate-text {
+  opacity: 0;
+  animation: fadeIn 5s ease-in-out infinite;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+  color: #bdbddd;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
   }
-  
-  .about__name {
-    color: var(--clr-primary);
-  }
-  
-  .about__role {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-  
-  .about__desc {
-    font-size: 1rem;
-    max-width: 600px;
-  }
-  
-  .about__desc,
-  .about__contact {
-    margin-top: 2.4em;
-  }
-  
-  .about .link--icon {
-    margin-right: 0.8em;
-  }
-  
-  .about .btn--outline {
-    margin-right: 1em;
-    color:#bdbddd
-  }
-  
-  @media (max-width: 600px) {
-    .app .about {
-      align-items: flex-start;
-      margin-top: 2em;
-    }
-  }
-  .about-section {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
+}
+
+.about-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: royalblue;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
   .section-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
   }
-  
+
   .section-description {
+    margin-top: 5px;
     font-size: 20px;
-    line-height: 1.6;
   }
-  
-  .highlight {
-    color: royalblue; /* Change the color to your preference */
-    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.2rem;
   }
-  
-  @media (max-width: 768px) {
-    .section-title {
-      font-size: 1.5rem;
-    }
-  
-    .section-description {
-      margin-top: 5px;
-      font-size: 20px;
-    }
+
+  .section-description {
+    margin-top: 5px;
+    font-size: 20px;
   }
-  
-  @media (max-width: 576px) {
-    .section-title {
-      font-size: 1.2rem;
-    }
-  
-    .section-description {
-      margin-top: 5px;
-      font-size: 20px;
-    }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
+  100% {
+    opacity: 1;
+  }
+}

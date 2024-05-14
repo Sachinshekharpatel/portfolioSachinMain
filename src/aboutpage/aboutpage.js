@@ -10,13 +10,27 @@ const About = () => {
     <div className="about center">
       {name && (
         <h1>
-          Hi, I am <span className="about__name">{name}.</span>
+          <span className="animate-text" style={{ animationDelay: "0.2s" }}>
+            Hi,
+          </span>{" "}
+          <span className="animate-text" style={{ animationDelay: "0.4s" }}>
+            I am
+          </span>{" "}
+          <span className="animate-text" style={{ animationDelay: "0.6s" }}>
+            a
+          </span>
+          ,{" "}
+          <span
+            className="about__name animate-text"
+            style={{ animationDelay: "0.8s" }}
+          >
+            {name}.
+          </span>
         </h1>
       )}
 
       {role && <h2 className="about__role">A {role}.</h2>}
       <div className="about-section">
-       
         <p className="section-description">
           Passionate <span className="highlight">frontend React developer</span>{" "}
           with a keen eye for detail and a love for creating{" "}
@@ -36,7 +50,7 @@ const About = () => {
           <>
             {social.github && (
               <a
-                href={social.github}
+                href="https://github.com/Sachinshekharpatel/portfolioSachinMain"
                 aria-label="github"
                 className="link link--icon"
               >
