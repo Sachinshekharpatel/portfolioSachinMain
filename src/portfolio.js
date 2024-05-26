@@ -78,7 +78,7 @@ const skills = [
   "Redux",
   "Material UI",
   "Git",
-  
+  "Bootstrap",
 ];
 
 const contact = [
