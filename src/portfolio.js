@@ -58,7 +58,7 @@ const projects = [
     ],
     sourceCode:
       "https://github.com/Sachinshekharpatel/trackerappreactbootstrap",
-    livePreview: "https://sachinsteps.netlify.app/",
+    livePreview: "https://sachinsteps.netlify.app",
   },
   {
     name: "Mailbox",
@@ -66,7 +66,7 @@ const projects = [
       "Mailbox is a responsive web application developed using React and Bootstrap, offering users the ability to create accounts, log in, and send emails. It features separate pages for inbox and sent mail, with unread emails marked by a star for easy identification. Users can delete emails, with the unread count dynamically adjusting accordingly.",
     stack: ["Bootstrap", "React", "Redux", "Custom Hooks", "Authentication"],
     sourceCode: "https://github.com",
-    livePreview: "https://mailbox-khaki.vercel.app/",
+    livePreview: "https://mailbox-khaki.vercel.app",
   },
 ];
 
@@ -78,7 +78,7 @@ const skills = [
   "Redux",
   "Material UI",
   "Git",
-  "Jest",
+  
 ];
 
 const contact = [

@@ -1,11 +1,41 @@
 .about {
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 3em;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+
+.about__details {
+  flex: 1 1 50%;
+  padding-right: 2rem;
+  opacity: 0;
+  animation: fadeInText 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+.about__image {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slideInImage 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+.about__image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .animate-text {
   opacity: 0;
-  animation: fadeIn 5s ease-in-out infinite;
+  animation: fadeIn 1s ease-in-out forwards;
 }
 
 .about__name {
@@ -36,13 +66,6 @@
   color: #bdbddd;
 }
 
-@media (max-width: 600px) {
-  .app .about {
-    align-items: flex-start;
-    margin-top: 2em;
-  }
-}
-
 .about-section {
   text-align: center;
   margin-bottom: 2rem;
@@ -63,14 +86,36 @@
   font-weight: bold;
 }
 
+@media (max-width: 1024px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about__details {
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+
+  .about__image {
+    margin-top: 2rem;
+    transform: translateX(0);
+  }
+
+  .about__image img {
+    width: 80%;
+    height: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .section-title {
     font-size: 1.5rem;
   }
 
   .section-description {
-    margin-top: 5px;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -80,8 +125,16 @@
   }
 
   .section-description {
-    margin-top: 5px;
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  .about__details,
+  .about__image {
+    width: 80%;
+  }
+
+  .about__image img {
+    width: 80%;
   }
 }
 
@@ -91,5 +144,27 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInImage {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
