@@ -17,6 +17,22 @@ const about = {
 
 const projects = [
   {
+    name: "Mailbox",
+    description:
+      "Mailbox is a responsive web application developed using React and Bootstrap, offering users the ability to create accounts, log in, and send emails. It features separate pages for inbox and sent mail, with unread emails marked by a star for easy identification. Users can delete emails, with the unread count dynamically adjusting accordingly.",
+    stack: ["Bootstrap", "React", "Redux", "Custom Hooks", "Authentication"],
+    sourceCode: "https://github.com/Sachinshekharpatel/",
+    livePreview: "https://mailbox-khaki.vercel.app",
+  },
+  {
+    name: "MernKart",
+    description:
+      "mern Kart is a responsive web application developed using React and Bootstrap, offering users the ability to create accounts, log in. It features separate pages for different categories of products, with filtering and sorting capabilities. Users can add products to their cart, and proceed to checkout and payment via razorpay.",
+    stack: ["Tailwind Css", "React", "Redux", "HTML5", " Firebase Authentication"],
+    sourceCode: "https://github.com/Sachinshekharpatel/merncartecommerce2024",
+    livePreview: "https://merncartsachin.netlify.app/",
+  },
+  {
     name: "SachinTube",
     description:
       "Developed a fully functional YouTube clone using React, Bootstrap, and Redux, with authentication features allowing users to create accounts and log in. Implemented state management with Redux for seamless navigation, video playback.",
@@ -60,14 +76,7 @@ const projects = [
       "https://github.com/Sachinshekharpatel/trackerappreactbootstrap",
     livePreview: "https://sachinsteps.netlify.app",
   },
-  {
-    name: "Mailbox",
-    description:
-      "Mailbox is a responsive web application developed using React and Bootstrap, offering users the ability to create accounts, log in, and send emails. It features separate pages for inbox and sent mail, with unread emails marked by a star for easy identification. Users can delete emails, with the unread count dynamically adjusting accordingly.",
-    stack: ["Bootstrap", "React", "Redux", "Custom Hooks", "Authentication"],
-    sourceCode: "https://github.com",
-    livePreview: "https://mailbox-khaki.vercel.app",
-  },
+  
 ];
 
 const skills = [
