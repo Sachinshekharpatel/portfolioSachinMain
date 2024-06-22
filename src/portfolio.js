@@ -17,6 +17,14 @@ const about = {
 
 const projects = [
   {
+    name: "Dcathelonemart",
+    description:
+      "dcathelonemart is a responsive web application developed using React and tailwind, offering users the ability to create accounts, log in, and user can buy products. Users can delete and add products to the cart as well as for wishlist and proceed to checkout with razorpay payment gateway, our cart count dynamically adjusting accordingly.",
+    stack: ["Tailwind Css", "React", "Redux", "HTML5", "Payment Gateway","Authentication"],
+    sourceCode: "https://github.com/Sachinshekharpatel/dcathelone",
+    livePreview: "https://dcathelonemart.netlify.app",
+  },
+  {
     name: "Mailbox",
     description:
       "Mailbox is a responsive web application developed using React and Bootstrap, offering users the ability to create accounts, log in, and send emails. It features separate pages for inbox and sent mail, with unread emails marked by a star for easy identification. Users can delete emails, with the unread count dynamically adjusting accordingly.",
